@@ -1,0 +1,124 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+/*  --------- */
+/* UTILITY */
+/*  --------- */
+
+body {
+	/* font-family: 'Poppins', sans-serif; */
+	font-family: 'Quicksand', sans-serif;
+	color: #000;
+}
+
+/*  --------- */
+/* Nav */
+/*  --------- */
+.nav-link {
+	color: #C7C7C7 !important;
+}
+
+.nav-link.active {
+	color: #197BBD !important;
+	font-weight: bold !important;
+}
+
+.rounded-12px {
+	border-radius: 12px !important;
+	-webkit-border-radius: 12px !important;
+	-moz-border-radius: 12px !important;
+	-ms-border-radius: 12px !important;
+	-o-border-radius: 12px !important;
+}
+
+.rounded-24px {
+	border-radius: 24px !important;
+	-webkit-border-radius: 24px !important;
+	-moz-border-radius: 24px !important;
+	-ms-border-radius: 24px !important;
+	-o-border-radius: 24px !important;
+}
+
+.btn-primary-gradient {
+	color: #fff;
+  background: linear-gradient(180deg, #197BBD 0%, #3391D0 100%) !important;
+  border: #0a58ca;
+}
+.btn-primary-gradient:hover {
+	color: #fff;
+	background: linear-gradient(180deg, #0e5483 0%, #3391D0 100%) !important;
+	transition: 300ms ease-in-out;
+	-webkit-transition: 3;
+	-moz-transition: 3;
+	-ms-transition: 3;
+	-o-transition: 3;
+}
+
+.accordion-button:not(.collapsed) {
+	color: #000 !important;
+	background-color: transparent !important;
+	box-shadow: none !important;
+}
+
+.bg-primary-gradient {
+	background: linear-gradient(180deg, #197BBD 0%, #3391D0 100%);
+}
+
+.bg-muted {
+	background: #EFEFEF;
+}
+
+/*  --------- */
+/* BREAKPOINT */
+/*  --------- */
+
+
+.shadow-ea-top {
+	box-shadow: 0 0 50px #ccc;
+}
+
+.shadow-ea-bottom {
+	box-shadow: 0px 0px 50px #ccc;
+}
+
+.image-slider {
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+}
+
+.border-6 {
+	border-width:10px!important
+}
+
+
+.navbar-nav .nav-item .nav-link{
+	color: #ffffff !important;
+}
+
+/* body {
+	background-image: url('https://img.freepik.com/free-vector/abstract-background-with-monochrome-low-poly-design_1048-14453.jpg?w=1060&t=st=1659446582~exp=1659447182~hmac=812c1757923ea687fe5e2b052a144d006f8ebe6199cd3a738852bacb92c59537');	
+	background-position: center !important;
+	background-size: cover;
+} */
+
+.min-vh-100 {
+	min-width: vh100 !important;
+}
+
+.img-user-comment{
+	width: 50px !important;
+	height: 50px !important;	
+}
+
+.rounded-19 {
+	border-radius: 19px !important;
+}
+
+.bg-orange {
+	background-color: #d69a17 !important;
+}
+
+.text-orange {
+	color: #d69a17 !important;
+}
+

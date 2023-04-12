@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html,
+body {
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.logo-title,
+.logo-subtitle {
+	font-family: 'Bebas Neue',
+		cursive;
+}
+
+.logo-subtitle {
+	font-weight: lighter;
+}
+
+.bg-page {
+	background-color: #0C0265;
+}
+
+.bg-main {
+	background-color: #F6F8FA;
+}
+
+.bg-login {
+	background-color: #d69a17;
+}
+
+.btn-login {
+	background: #d69a17;
+	border-radius: 8.76993px;
+	height: 60.3px;
+}
+
+.btn-register {
+	background: #FF7200;
+	border-radius: 8.76993px;
+	height: 60.3px;
+}
+
+.min-height-login {
+	min-height: 700px;
+}
+
+input,
+input::-webkit-input-placeholder {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.text-orange {
+	color: #F2994A !important;
+}
+
+.img-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.invalid-input-r {
+	border: 1px solid #fd2020 !important;
+	color: #fd2020 !important;
+	border-left: 0 !important;
+	border-radius: 0px 5px 5px 0px !important;
+}
+
+.invalid-input-l {
+	border: 1px solid #fd2020 !important;
+	color: #fd2020 !important;
+	border-right: 0 !important;
+	border-radius: 5px 0px 0px 5px !important;
+}
